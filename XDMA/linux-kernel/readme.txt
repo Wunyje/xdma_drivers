@@ -115,6 +115,8 @@ Usage:
         cd xdma
   - Compile and install the kernel module driver.
         make install
+	    or
+		sudo make DEBUG=1 install
   - Change directory to the tools directory.
         cd tools
   - Compile the provided example test tools.
